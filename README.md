@@ -1,84 +1,101 @@
 # Taostats API Documentation
 
-This repository contains the official documentation for the Taostats API, which provides comprehensive access to data from the Bittensor ecosystem - the same data that powers [taostats.io](https://taostats.io).
+This repository contains a structured, machine-readable documentation for the Taostats API, specifically formatted to be easily parsed and understood by AI language models and development tools. The documentation provides comprehensive access to the Bittensor ecosystem data that powers [taostats.io](https://taostats.io).
 
-## Overview
+## Purpose
 
-The Taostats API offers a wide range of endpoints that allow developers to:
-- Track real-time and historical price data for TAO
-- Monitor coldkey/wallet balances and transactions
-- Access network and chain statistics
-- View delegation and staking information
-- Analyze metagraph data
-- Get validator and subnet metrics
-- Access EVM-related functionality
-- Utilize Trading View compatible endpoints
-- Track accounting and financial metrics
-- Access live streaming data
-- Connect to hosted RPC nodes
-
-## API Categories
-
-### Core Features
-- **Price API**: Real-time and historical price data for TAO
-- **Coldkeys/Wallets API**: Account information, balances, and transaction history
-- **Network/Chain API**: Blockchain and network statistics
-- **Delegation/Staking API**: Validator and delegator information
-- **Metagraph API**: Network topology and metrics
-- **Submit API**: Transaction submission endpoints
-- **Validation API**: Validator performance and metrics
-- **EVM API**: Ethereum Virtual Machine integration
-- **Trading View API**: Chart and widget compatible data
-- **Accounting API**: Financial metrics and analysis
-- **Live API**: Real-time data streaming
-- **Hosted RPC**: Direct blockchain connectivity
-
-### Beta Features
-- **dTAO TESTNET**: Testnet-specific endpoints
-- **dTao BETA**: Experimental features
-- **Validator Emission**: Emission tracking by submission
-- **Stake Balance**: Current and historical stake tracking
-
-## Getting Started
-
-1. **API Key**: Obtain your API key to access the endpoints
-2. **Authentication**: Include your API key in the `Authorization` header
-3. **Rate Limits**: Review the rate limiting documentation
-4. **Examples**: Check out the [example repository](https://github.com/taostats/examples)
+This documentation is designed to:
+- Provide consistent, structured information that AI tools can easily process
+- Enable AI-powered development environments to offer accurate code completion
+- Help AI assistants generate correct API calls and handle responses
+- Maintain a standardized format across all endpoint documentation
 
 ## Documentation Structure
 
-Each API category has its own documentation section covering:
-- Available endpoints
-- Query parameters
-- Response formats
-- Example requests
-- Field descriptions
-- Usage notes
+Each API endpoint is documented in a consistent format:
 
-## Authentication
+```markdown
+# Endpoint Name
 
-All endpoints require an API key for authentication. Include it in your requests:
+Brief description of the endpoint's purpose
 
-```python
-headers = {
-    "accept": "application/json",
-    "Authorization": "YOUR-API-KEY"
+```
+GET/POST https://api.taostats.io/api/[endpoint-path]
+```
+
+## Query Parameters
+
+| Parameter | Type | Required | Description | Default |
+|-----------|------|----------|-------------|---------|
+| param1 | string | Yes/No | Description | default |
+
+## Response
+
+JSON structure with types specified:
+
+```json
+{
+  "field": type (format),
+  "nested": {
+    "field": type
+  }
 }
 ```
 
-## Common Features
+## Example Request/Response
 
-All endpoints share some common characteristics:
-- JSON response format
-- Pagination support where applicable
-- Timestamp fields in ISO 8601 format
-- Numerical values as strings to preserve precision
-- Consistent error handling
+Complete working examples with actual data
+```
 
-## Response Format
+### Core API Categories
 
-Standard response structure:
+Each category follows the same documentation pattern:
+
+1. **Price API** (`/docs/price/`)
+   - Latest price
+   - Historical data
+   - OHLC data
+
+2. **Coldkeys/Wallets API** (`/docs/coldkeys-wallets/`)
+   - Account information
+   - Transaction history
+   - Balance tracking
+
+[Additional categories listed in directory structure]
+
+## Machine-Readable Features
+
+The documentation emphasizes:
+- Consistent JSON schemas
+- Explicit type definitions
+- Standardized parameter tables
+- Clear response structures
+- Real-world examples
+- Structured error formats
+
+## Directory Structure
+
+```
+docs/
+├── index.md                 # API Overview
+├── api-key.md              # Authentication
+├── price/                  # Price endpoints
+│   ├── index.md
+│   ├── latest.md
+│   ├── history.md
+│   └── ohlc.md
+├── coldkeys-wallets/       # Wallet endpoints
+│   ├── index.md
+│   ├── account.md
+│   └── history.md
+[etc...]
+```
+
+## Common Response Patterns
+
+All endpoints follow consistent patterns:
+
+1. **Pagination Structure**
 ```json
 {
   "pagination": {
@@ -88,19 +105,47 @@ Standard response structure:
     "total_pages": integer,
     "next_page": integer|null,
     "prev_page": integer|null
-  },
-  "data": [
-    // Endpoint-specific data
-  ]
+  }
 }
 ```
 
+2. **Error Format**
+```json
+{
+  "error": {
+    "code": string,
+    "message": string,
+    "details": object|null
+  }
+}
+```
+
+## Type Conventions
+
+- Timestamps: ISO 8601 format
+- Numerical values: Strings for precision
+- Addresses: SS58 and hex formats
+- Network names: Lowercase strings
+- Block numbers: Integers
+- Balances: Strings (to preserve precision)
+
+## Using with AI Tools
+
+This documentation is optimized for:
+- Code completion engines
+- AI pair programming assistants
+- Documentation generators
+- API client generators
+- Test case generators
+
 ## Contributing
 
-This documentation is maintained by the Taostats team. For issues, suggestions, or corrections:
-1. Open an issue describing the problem or suggestion
-2. Submit a pull request with proposed changes
-3. Follow the documentation style guide
+When contributing documentation:
+1. Follow the established format patterns
+2. Include explicit type information
+3. Provide real-world examples
+4. Maintain consistent structure
+5. Include machine-readable metadata
 
 ## Support
 
