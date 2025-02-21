@@ -6,17 +6,19 @@ This repository contains documentation for the Taostats API in a format that's e
 
 Documentation for these main API categories:
 
-- Price data (latest, historical, OHLC)
-- Coldkeys and wallets (accounts, balances, history)
-- Network and chain stats
-- Delegation and staking info
-- Metagraph data
-- Validator info
-- EVM functionality
-- Trading View data
-- Accounting metrics
-- Live data streams
-- RPC connections
+- [Price data](docs/price/index.md) (latest, historical, OHLC)
+- [Coldkeys and wallets](docs/coldkeys-wallets/index.md) (accounts, balances, history)
+- [Network and chain stats](docs/network-chain/index.md)
+- [Delegation and staking](docs/delegation-staking/index.md)
+- [Metagraph](docs/metagraph/index.md)
+- [Validation](docs/validation/index.md)
+- [EVM](docs/evm/index.md)
+- [Trading View](docs/trading-view/index.md)
+- [Accounting](docs/accounting/index.md)
+- [Live data](docs/live/index.md)
+- [Hosted RPC](docs/hosted-rpc/index.md)
+
+See the complete [API Overview](docs/index.md) for more details.
 
 ## How It's Organized
 
@@ -52,4 +54,5 @@ All responses include:
 
 - [Taostats Website](https://taostats.io)
 - [Example Code](https://github.com/taostats/examples)
-- [API Status](https://api.taostats.io/status) 
+- [API Status](https://api.taostats.io/status)
+- [Authentication Guide](docs/api-key.md) 
