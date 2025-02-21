@@ -126,6 +126,73 @@ docs/
   - [ ] Get dTao Delegation Events
   - [ ] Get Stake Balance Sum in Tao
 
+- [ ] Metagraph API
+  - [ ] Get Metagraph
+  - [ ] Get Metagraph History
+  - [ ] Get Root Subnet Metagraph
+  - [ ] Get Root Subnet History
+  - [ ] Get Neuron Registrations
+  - [ ] Get Miner Weights
+  - [ ] Get Subnet Coldkey Distribution
+  - [ ] Get Subnet Axon IP
+  - [ ] Get Subnet Miner Incentive
+
+- [ ] Subnet API
+  - [ ] Get Subnets
+  - [ ] Get Current Subnet Pools
+  - [ ] Get Historical Subnet Pools
+  - [ ] Get Subnet Emission
+  - [ ] Get Subnet Description
+  - [ ] Get Subnet Owner
+  - [ ] Get Subnet History
+  - [ ] Get Subnet Registration Cost
+  - [ ] Get Subnet Registration Cost History
+  - [ ] Get Subnet Registrations
+
+- [ ] RPC API
+  - [ ] Hosted RPC Connectivity
+
+- [ ] Validation API
+  - [ ] Get Validator
+  - [ ] Get Validator History
+  - [ ] Get Validator Metrics
+  - [ ] Get Validator Metrics History
+  - [ ] Get Parent/Child Hotkey relationships
+  - [ ] Get Parent/Child Hotkey History
+  - [ ] Get Validator Identity
+  - [ ] Get Validator Performance
+  - [ ] Get Current Validator Weights
+  - [ ] Get Validator Weights History
+  - [ ] Get Validator Alpha Shares
+  - [ ] Get Validator Alpha Shares (Historical)
+  - [ ] Get Weight Copiers
+
+- [ ] EVM API
+  - [ ] Get EVM Transaction
+  - [ ] Get EVM Block
+  - [ ] Get EVM Contract
+  - [ ] Get EVM Log
+  - [ ] Get EVM Address
+
+- [ ] Trading View API
+  - [ ] Trading View History
+
+- [ ] Accounting API
+  - [ ] Get Coldkey Report
+  - [ ] Get Coldkey Report as CSV
+
+- [ ] Live API
+  - [ ] Live: Get Free Tao Balance
+  - [ ] Live: Get Extrinsics for Block Range
+  - [ ] Live: Get Latest Block Extrinsics
+  - [ ] Live: Get Extrinsics for Specific Block
+  - [ ] Live: Get Raw Extrinsics for Specific Block
+  - [ ] Live: Get Node Transaction Pool
+  - [ ] Live: Get Node Version
+  - [ ] Live: Get Pallet Consts
+  - [ ] Live: Get Pallet Consts by Id
+  - [ ] Live: Get Pallet Events by Id
+
 ### Beta Features
 - [ ] dTAO TESTNET BETA
   - [ ] Overview
