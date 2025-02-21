@@ -6,24 +6,30 @@ For reference, you can find the official Taostats API documentation at [docs.tao
 
 ## Documentation Process
 
+To begin documenting an endpoint, start a new conversation in Cursor's composer with Claude in agent mode and type:
+```
+document endpoint
+```
+Claude will check the progress checklist and guide you through documenting the next endpoint.
+
+Alternative trigger phrases:
+- `start documentation`
+- `document next endpoint`
+- `begin documentation`
+
 ### 1. Capture API Documentation
-First, capture the API documentation from the Taostats website. This includes:
-- Endpoint details
-- Query parameters
-- Response structure
-- Example requests and responses
+First, capture the API documentation from the Taostats website. You'll need to take screenshots of:
 
-Here's an example of documenting the Get Transfers endpoint ([view original documentation](https://docs.taostats.io/reference/get-transfers)):
+1. The parameters section
+   - Take one clear screenshot showing the complete parameter table
+   - Make sure all columns (Parameter, Type, Required, Description, Default) are visible
 
-#### Overview and Endpoint
-![API Overview](images/get_transfers_overview.png)
+2. The response structure section
+   - Usually requires 2 screenshots to capture all fields
+   - Make sure all response fields and their descriptions are clearly visible
+   - Don't worry about naming the files - just paste the screenshots directly into the chat
 
-#### Query Parameters
-![API Parameters](images/get_transfers_params.png)
-
-#### Response Structure
-![Response Structure 1](images/get_transfers_response1.png)
-![Response Structure 2](images/get_transfers_response2.png)
+Simply paste each screenshot into the chat when Claude requests it. Claude will recognize what each screenshot contains and use it appropriately.
 
 ### 2. Test the API Endpoint
 Make a test request to get a real response from the API. Here's an example:
@@ -87,27 +93,27 @@ docs/
   - [x] Documentation format established
 
 - [ ] Price API
-  - [ ] Get Price
-  - [ ] Get Price History
-  - [ ] Get Price OHLC
+  - [x] Get Price
+  - [x] Get Price History
+  - [x] Get Price OHLC
 
 - [ ] Coldkeys/Wallets API
-  - [ ] Get Account
-  - [ ] Get Account History
+  - [x] Get Account
+  - [x] Get Account History
   - [x] Get Transfers
-  - [ ] Get Exchanges
+  - [x] Get Exchanges
 
 - [ ] Network/Chain API
-  - [ ] Get Blocks
-  - [ ] Get Block Number over Interval
-  - [ ] Get Extrinsics
-  - [ ] Get Event
-  - [ ] Get Chain Calls
-  - [ ] Get Stats Latest
-  - [ ] Get Stats History
-  - [ ] Get Runtime Version
-  - [ ] Get Historical Runtime Version
-  - [ ] Get Proxy Calls
+  - [x] Get Blocks
+  - [x] Get Block Number over Interval
+  - [x] Get Extrinsics
+  - [x] Get Event
+  - [x] Get Chain Calls
+  - [x] Get Stats Latest
+  - [x] Get Stats History
+  - [x] Get Runtime Version
+  - [x] Get Historical Runtime Version
+  - [x] Get Proxy Calls
 
 - [ ] API Status
   - [ ] Get API Status
