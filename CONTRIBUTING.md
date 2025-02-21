@@ -92,18 +92,18 @@ docs/
   - [x] Directory structure
   - [x] Documentation format established
 
-- [ ] Price API
+- [x] Price API
   - [x] Get Price
   - [x] Get Price History
   - [x] Get Price OHLC
 
-- [ ] Coldkeys/Wallets API
+- [x] Coldkeys/Wallets API
   - [x] Get Account
   - [x] Get Account History
   - [x] Get Transfers
   - [x] Get Exchanges
 
-- [ ] Network/Chain API
+- [x] Network/Chain API
   - [x] Get Blocks
   - [x] Get Block Number over Interval
   - [x] Get Extrinsics
@@ -115,16 +115,16 @@ docs/
   - [x] Get Historical Runtime Version
   - [x] Get Proxy Calls
 
-- [ ] API Status
-  - [ ] Get API Status
+- [x] API Status
+  - [x] Get API Status
 
 - [ ] Delegation/Staking API
-  - [ ] Get Stake (v2)
-  - [ ] Get Slippage
-  - [ ] Get Historical Stake
-  - [ ] Get Staking/Delegation Events
+  - [x] Get Stake (v2)
+  - [x] Get Slippage
+  - [x] Get Historical Stake
+  - [x] Get Staking/Delegation Events
   - [ ] Get dTao Delegation Events
-  - [ ] Get Stake Balance Sum in Tao
+  - [x] Get Stake Balance Sum in Tao
 
 - [ ] Metagraph API
   - [ ] Get Metagraph
