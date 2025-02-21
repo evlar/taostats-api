@@ -2,6 +2,8 @@
 
 This guide explains how to document the Taostats API using Cursor IDE and Claude 3.5 Sonnet. For the complete API documentation, see the [main README](README.md).
 
+For reference, you can find the official Taostats API documentation at [docs.taostats.io](https://docs.taostats.io/reference/welcome-to-the-taostats-api).
+
 ## Documentation Process
 
 ### 1. Capture API Documentation
@@ -11,7 +13,7 @@ First, capture the API documentation from the Taostats website. This includes:
 - Response structure
 - Example requests and responses
 
-Here's an example of documenting the Get Transfers endpoint:
+Here's an example of documenting the Get Transfers endpoint ([view original documentation](https://docs.taostats.io/reference/get-transfers)):
 
 #### Overview and Endpoint
 ![API Overview](images/get_transfers_overview.png)
@@ -74,6 +76,58 @@ docs/
 3. **Examples**: Provide clear, working example requests
 4. **Clarity**: Use tables for parameters and field descriptions
 5. **Structure**: Maintain the established directory organization
+
+## Documentation Progress
+
+### Core Features
+- [x] Project Setup
+  - [x] README.md
+  - [x] CONTRIBUTING.md
+  - [x] Directory structure
+  - [x] Documentation format established
+
+- [ ] Price API
+  - [ ] Get Price
+  - [ ] Get Price History
+  - [ ] Get Price OHLC
+
+- [ ] Coldkeys/Wallets API
+  - [ ] Get Account
+  - [ ] Get Account History
+  - [x] Get Transfers
+  - [ ] Get Exchanges
+
+- [ ] Network/Chain API
+  - [ ] Get Blocks
+  - [ ] Get Block Number over Interval
+  - [ ] Get Extrinsics
+  - [ ] Get Event
+  - [ ] Get Chain Calls
+  - [ ] Get Stats Latest
+  - [ ] Get Stats History
+  - [ ] Get Runtime Version
+  - [ ] Get Historical Runtime Version
+  - [ ] Get Proxy Calls
+
+- [ ] API Status
+  - [ ] Get API Status
+
+- [ ] Delegation/Staking API
+  - [ ] Get Stake (v2)
+  - [ ] Get Slippage
+  - [ ] Get Historical Stake
+  - [ ] Get Staking/Delegation Events
+  - [ ] Get dTao Delegation Events
+  - [ ] Get Stake Balance Sum in Tao
+
+### Beta Features
+- [ ] dTAO TESTNET BETA
+  - [ ] Overview
+  - [ ] Endpoints
+
+- [ ] dTao BETA
+  - [ ] Overview
+  - [ ] Endpoints
 
 ## Need Help?
 

@@ -2,6 +2,8 @@
 
 This repository contains documentation for the Taostats API in a format that's easy for AI tools to understand and use. The API provides data from the Bittensor network, which powers [taostats.io](https://taostats.io).
 
+👉 **Want to contribute?** Check out our [Contributing Guide](CONTRIBUTING.md) to learn how to document endpoints using Cursor and Claude.
+
 ## What's Here
 
 Documentation for these main API categories:
@@ -49,6 +51,14 @@ All responses include:
 - Timestamps in ISO 8601
 - Numbers as strings (for precision)
 - Standard JSON structure
+
+## Contributing
+
+We welcome contributions to improve and expand this documentation! Please see our [Contributing Guide](CONTRIBUTING.md) for:
+- Step-by-step instructions for documenting endpoints
+- Documentation templates and examples
+- Current progress and what needs to be documented
+- Best practices and guidelines
 
 ## Links
 
