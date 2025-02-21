@@ -14,14 +14,14 @@ First, capture the API documentation from the Taostats website. This includes:
 Here's an example of documenting the Get Transfers endpoint:
 
 #### Overview and Endpoint
-![API Overview](Screenshot from 2025-02-20 19-47-09.png)
+![API Overview](images/get_transfers_overview.png)
 
 #### Query Parameters
-![API Parameters](Screenshot from 2025-02-20 19-47-47.png)
+![API Parameters](images/get_transfers_params.png)
 
 #### Response Structure
-![Response Structure 1](Screenshot from 2025-02-20 19-48-05.png)
-![Response Structure 2](Screenshot from 2025-02-20 19-48-24.png)
+![Response Structure 1](images/get_transfers_response1.png)
+![Response Structure 2](images/get_transfers_response2.png)
 
 ### 2. Test the API Endpoint
 Make a test request to get a real response from the API. Here's an example:
