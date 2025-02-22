@@ -1,0 +1,502 @@
+{
+  "pagination": {
+    "current_page": 1,
+    "per_page": 98,
+    "total_items": 98,
+    "total_pages": 1,
+    "next_page": null,
+    "prev_page": null
+  },
+  "data": [
+    {
+      "block_number": 4107396,
+      "incentive": "0.19053940642404821851",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.16380560006103608759",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.16131837949187457084",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.13025101091020065614",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.10283054856183718624",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.04675364309147783627",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.0421454184786755169",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.03018234531166552224",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.02853437094682230869",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.0218814373998626688",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.02006561379415579461",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00912489509422446021",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00823987182421606775",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00738536659800106813",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00683604180971999695",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00666819256885633631",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00488288700694285496",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00431830319676508736",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00248722056916151675",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00221255817502098116",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00151064316777294575",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00120546272983901732",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00111390859845883879",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00096131837949187457",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00064087891966124971",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00054932478828107118",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00051880674448767834",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00051880674448767834",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00041199359121080339",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00036621652552071412",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00032043945983062486",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00025940337224383917",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00019836728465705348",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00019836728465705348",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00010681315327687495",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00009155413138017853",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00007629510948348211",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00003051804379339284",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00003051804379339284",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00001525902189669642",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00001525902189669642",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00001525902189669642",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0.00001525902189669642",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": true
+    },
+    {
+      "block_number": 4107396,
+      "incentive": "0",
+      "is_immunity_period": false
+    }
+  ]
+}

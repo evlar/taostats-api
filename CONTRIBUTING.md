@@ -127,15 +127,16 @@ docs/
   - [x] Get Stake Balance Sum in Tao
 
 - [ ] Metagraph API
-  - [ ] Get Metagraph
-  - [ ] Get Metagraph History
-  - [ ] Get Root Subnet Metagraph
-  - [ ] Get Root Subnet History
-  - [ ] Get Neuron Registrations
-  - [ ] Get Miner Weights
-  - [ ] Get Subnet Coldkey Distribution
-  - [ ] Get Subnet Axon IP
-  - [ ] Get Subnet Miner Incentive
+  - [x] Get Metagraph
+  - [x] Get Metagraph History
+  - [x] Get Root Subnet Metagraph
+  - [x] Get Root Subnet History
+  - [x] Get Neuron Registrations
+  - [x] Get Neuron Deregistrations
+  - [x] Get Miner Weights
+  - [x] Get Subnet Coldkey Distribution
+  - [x] Get Subnet Axon IP
+  - [x] Get Subnet Miner Incentive
 
 - [ ] Subnet API
   - [ ] Get Subnets
