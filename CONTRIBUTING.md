@@ -139,16 +139,16 @@ docs/
   - [x] Get Subnet Miner Incentive
 
 - [ ] Subnet API
-  - [ ] Get Subnets
-  - [ ] Get Current Subnet Pools
-  - [ ] Get Historical Subnet Pools
-  - [ ] Get Subnet Emission
-  - [ ] Get Subnet Description
-  - [ ] Get Subnet Owner
-  - [ ] Get Subnet History
-  - [ ] Get Subnet Registration Cost
-  - [ ] Get Subnet Registration Cost History
-  - [ ] Get Subnet Registrations
+  - [x] Get Subnets
+  - [x] Get Current Subnet Pools
+  - [x] Get Historical Subnet Pools
+  - [x] Get Subnet Emission
+  - [x] Get Subnet Description
+  - [x] Get Subnet Owner
+  - [x] Get Subnet History
+  - [x] Get Subnet Registration Cost
+  - [x] Get Subnet Registration Cost History
+  - [x] Get Subnet Registrations
 
 - [ ] RPC API
   - [ ] Hosted RPC Connectivity
