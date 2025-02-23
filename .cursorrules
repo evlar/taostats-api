@@ -1,0 +1,100 @@
+# Cursor Rules for API Documentation Checklist
+
+## Command: run checklist
+
+When the user issues the command "run checklist", follow these steps:
+
+1. Read the checklist.md file
+2. For each unchecked endpoint:
+   a. Check if the endpoint documentation file exists in the correct category directory
+   b. Verify the documentation file contains all required sections:
+      - Title and description
+      - Query parameters table
+      - Response format
+      - Example request
+      - Response fields table
+      - Notes section
+   c. Verify all links in the documentation are valid
+   d. Check that the endpoint is properly linked from its category's index.md
+   e. If all verifications pass, update checklist.md to check off the endpoint
+
+3. Report format for each endpoint:
+```
+Checking [Endpoint Name] in [Category]...
+✓ Documentation file exists: [path]
+✓ Required sections present
+✓ Links verified
+✓ Index reference verified
+Status: [COMPLETE/INCOMPLETE]
+Missing sections: [list if any]
+```
+
+4. After checking each category:
+```
+Category: [Category Name]
+Total endpoints: [X]
+Completed: [Y]
+Remaining: [Z]
+```
+
+5. Final report:
+```
+Documentation Verification Complete
+Total endpoints: [N]
+Completed: [M]
+Remaining: [N-M]
+Progress: [M/N]%
+```
+
+## Rules
+
+1. Check endpoints in the order listed in checklist.md
+2. Only mark an endpoint as complete if ALL required sections are present
+3. Report any missing or incomplete sections
+4. Update checklist.md in real-time as verifications complete
+5. Stop and report if any critical issues are found
+6. Maintain consistent formatting in all documentation files
+7. Verify that example code is properly formatted and complete
+8. Ensure all response field descriptions are clear and accurate
+
+## Required Sections
+
+Every endpoint documentation must have:
+1. Title and clear description
+2. Complete parameters table with all columns:
+   - Parameter name
+   - Type
+   - Required status
+   - Description
+   - Default value
+3. Response format with JSON example
+4. Working example request code
+5. Complete response fields table
+6. Relevant notes and usage guidelines
+
+## Verification Standards
+
+1. Parameters:
+   - All parameters are documented
+   - Types are accurate
+   - Required/optional status is clear
+   - Descriptions are helpful
+   - Default values are specified
+
+2. Response Fields:
+   - All fields are documented
+   - Types are specified
+   - Descriptions are clear
+   - Nested objects are properly explained
+
+3. Examples:
+   - Code is complete and runnable
+   - Uses proper API key placeholder
+   - Includes all required headers
+   - Shows proper parameter usage
+
+4. Notes:
+   - Cover important usage details
+   - Mention any limitations
+   - Include relevant warnings
+   - Provide helpful tips 
