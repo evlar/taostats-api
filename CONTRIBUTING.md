@@ -123,7 +123,7 @@ docs/
   - [x] Get Slippage
   - [x] Get Historical Stake
   - [x] Get Staking/Delegation Events
-  - [ ] Get dTao Delegation Events
+  - [x] Get dTao Delegation Events
   - [x] Get Stake Balance Sum in Tao
 
 - [ ] Metagraph API
@@ -154,19 +154,19 @@ docs/
   - [ ] Hosted RPC Connectivity
 
 - [ ] Validation API
-  - [ ] Get Validator
-  - [ ] Get Validator History
-  - [ ] Get Validator Metrics
-  - [ ] Get Validator Metrics History
-  - [ ] Get Parent/Child Hotkey relationships
-  - [ ] Get Parent/Child Hotkey History
-  - [ ] Get Validator Identity
-  - [ ] Get Validator Performance
-  - [ ] Get Current Validator Weights
+  - [x] Get Validator
+  - [x] Get Validator History
+  - [x] Get Validator Metrics
+  - [x] Get Validator Metrics History
+  - [x] Get Parent/Child Hotkey relationships
+  - [x] Get Parent/Child Hotkey History
+  - [x] Get Validator Identity
+  - [x] Get Validator Performance
+  - [x] Get Current Validator Weights
   - [ ] Get Validator Weights History
-  - [ ] Get Validator Alpha Shares
-  - [ ] Get Validator Alpha Shares (Historical)
-  - [ ] Get Weight Copiers
+  - [x] Get Validator Alpha Shares
+  - [x] Get Validator Alpha Shares (Historical)
+  - [x] Get Weight Copiers
 
 - [ ] EVM API
   - [ ] Get EVM Transaction
