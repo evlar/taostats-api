@@ -183,16 +183,16 @@ docs/
   - [ ] Get Coldkey Report as CSV
 
 - [ ] Live API
-  - [ ] Live: Get Free Tao Balance
-  - [ ] Live: Get Extrinsics for Block Range
-  - [ ] Live: Get Latest Block Extrinsics
-  - [ ] Live: Get Extrinsics for Specific Block
-  - [ ] Live: Get Raw Extrinsics for Specific Block
-  - [ ] Live: Get Node Transaction Pool
-  - [ ] Live: Get Node Version
-  - [ ] Live: Get Pallet Consts
-  - [ ] Live: Get Pallet Consts by Id
-  - [ ] Live: Get Pallet Events by Id
+  - [x] Live: Get Free Tao Balance
+  - [x] Live: Get Extrinsics for Block Range
+  - [x] Live: Get Latest Block Extrinsics
+  - [x] Live: Get Extrinsics for Specific Block
+  - [x] Live: Get Raw Extrinsics for Specific Block
+  - [x] Live: Get Node Transaction Pool
+  - [x] Live: Get Node Version
+  - [x] Live: Get Pallet Consts
+  - [x] Live: Get Pallet Consts by Id
+  - [x] Live: Get Pallet Events by Id
 
 ### Beta Features
 - [ ] dTAO TESTNET BETA
