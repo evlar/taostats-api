@@ -125,6 +125,7 @@ docs/
   - [x] Get Staking/Delegation Events
   - [x] Get dTao Delegation Events
   - [x] Get Stake Balance Sum in Tao
+  - [x] Get Stake Balance
 
 - [ ] Metagraph API
   - [x] Get Metagraph
@@ -151,7 +152,7 @@ docs/
   - [x] Get Subnet Registrations
 
 - [ ] RPC API
-  - [ ] Hosted RPC Connectivity
+  - [x] Hosted RPC Connectivity
 
 - [ ] Validation API
   - [x] Get Validator
@@ -163,24 +164,25 @@ docs/
   - [x] Get Validator Identity
   - [x] Get Validator Performance
   - [x] Get Current Validator Weights
-  - [ ] Get Validator Weights History
+  - [x] Get Validator Weights History
   - [x] Get Validator Alpha Shares
   - [x] Get Validator Alpha Shares (Historical)
   - [x] Get Weight Copiers
+  - [x] Get Validator Emission by Subnet
 
 - [ ] EVM API
-  - [ ] Get EVM Transaction
-  - [ ] Get EVM Block
-  - [ ] Get EVM Contract
-  - [ ] Get EVM Log
-  - [ ] Get EVM Address
+  - [x] Get EVM Transaction
+  - [x] Get EVM Block
+  - [x] Get EVM Contract
+  - [x] Get EVM Log
+  - [x] Get EVM Address
 
 - [ ] Trading View API
-  - [ ] Trading View History
+  - [x] Trading View History
 
 - [ ] Accounting API
-  - [ ] Get Coldkey Report
-  - [ ] Get Coldkey Report as CSV
+  - [x] Get Coldkey Report
+  - [x] Get Coldkey Report as CSV
 
 - [ ] Live API
   - [x] Live: Get Free Tao Balance
