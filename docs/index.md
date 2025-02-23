@@ -11,31 +11,30 @@ Coming soon: Role Based Access Control for organizations and projects, billing a
 Not sure how to get started? We have a [GitHub repository](https://github.com/taostats/examples) of example scripts:
 - [Awesome Taostats Examples](https://github.com/taostats/examples)
 
-*Last updated: about 1 month ago*
-
 ## API Documentation Contents
 
 ### Core Features
-- [Price](price.md)
-- [Coldkeys/Wallets](coldkeys-wallets.md)
-- [Network/Chain](network-chain.md)
+- [Price](price/index.md)
+- [Coldkeys/Wallets](coldkeys-wallets/index.md)
+- [Network/Chain](network-chain/index.md)
 - [Get API Status](get-api-status.md)
-- [Delegation/Staking](delegation-staking.md)
-- [Metagraph](metagraph.md)
-- [Submit](submit.md)
-- [Validation](validation.md)
-- [EVM](evm.md)
-- [Trading View](trading-view.md)
-- [Accounting](accounting.md)
-- [Live](live.md)
-- [Hosted RPC Connectivity](hosted-rpc.md)
+- [Delegation/Staking](delegation-staking/index.md)
+- [Metagraph](metagraph/index.md)
+- [Submit](submit/index.md)
+- [Validation](validation/index.md)
+- [EVM](evm/index.md)
+- [Trading View](trading-view/index.md)
+- [Accounting](accounting/index.md)
+- [Live](live/index.md)
+- [Hosted RPC Connectivity](hosted-rpc/index.md)
 
 ### Beta Features
-- [dTAO TESTNET BETA](dtao-testnet-beta.md)
-- [dTao BETA](dtao-beta.md)
-- [Get Validator Emission by Submit](validator-emission-submit.md)
-- [Get Stake Balance](stake-balance.md)
-- [Get Historical Stake Balance](historical-stake-balance.md)
+- [dTAO API](dtao/index.md)
+  - [Get Stake Balance](dtao/get-stake-balance.md)
+  - [Get Historical Stake Balance](dtao/get-historical-stake-balance.md)
+  - [Get Validator Emission by Subnet](dtao/get-validator-emission.md)
 
 ## Version
-Current Version: v2.0 
+Current Version: v2.0
+
+*Last updated: February 23, 2025* 
