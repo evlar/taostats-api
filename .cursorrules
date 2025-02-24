@@ -1,100 +1,95 @@
-# Cursor Rules for API Documentation Checklist
+# Cursor Rules for Taostats API Documentation
 
-## Command: run checklist
+## Documentation Structure Rules
+- All API endpoints are in docs/{category}/{endpoint}.md
+- Each category has an index.md describing its endpoints
+- Main documentation entry point is docs/index.md
+- Authentication guide is in docs/api-key.md
 
-When the user issues the command "run checklist", follow these steps:
+## Command: find endpoint
+When the user asks to find an endpoint or API documentation:
+1. First check docs/index.md for the category
+2. Then check the category's index.md
+3. Finally check the specific endpoint documentation
 
-1. Read the checklist.md file
-2. For each unchecked endpoint:
-   a. Check if the endpoint documentation file exists in the correct category directory
-   b. Verify the documentation file contains all required sections:
-      - Title and description
-      - Query parameters table
-      - Response format
-      - Example request
-      - Response fields table
-      - Notes section
-   c. Verify all links in the documentation are valid
-   d. Check that the endpoint is properly linked from its category's index.md
-   e. If all verifications pass, update checklist.md to check off the endpoint
+## Command: generate client
+When generating API client code:
+1. Check endpoint documentation for:
+   - Complete parameter list
+   - Required vs optional parameters
+   - Default values
+   - Response structure
+2. Include error handling
+3. Use the example request as a template
+4. Add proper authentication header
+5. Follow response standards:
+   - Handle pagination
+   - Parse timestamps as ISO 8601
+   - Treat numerical values as strings
+   - Check both SS58 and hex formats for addresses
 
-3. Report format for each endpoint:
-```
-Checking [Endpoint Name] in [Category]...
-✓ Documentation file exists: [path]
-✓ Required sections present
-✓ Links verified
-✓ Index reference verified
-Status: [COMPLETE/INCOMPLETE]
-Missing sections: [list if any]
-```
-
-4. After checking each category:
-```
-Category: [Category Name]
-Total endpoints: [X]
-Completed: [Y]
-Remaining: [Z]
-```
-
-5. Final report:
-```
-Documentation Verification Complete
-Total endpoints: [N]
-Completed: [M]
-Remaining: [N-M]
-Progress: [M/N]%
-```
-
-## Rules
-
-1. Check endpoints in the order listed in checklist.md
-2. Only mark an endpoint as complete if ALL required sections are present
-3. Report any missing or incomplete sections
-4. Update checklist.md in real-time as verifications complete
-5. Stop and report if any critical issues are found
-6. Maintain consistent formatting in all documentation files
-7. Verify that example code is properly formatted and complete
-8. Ensure all response field descriptions are clear and accurate
-
-## Required Sections
-
-Every endpoint documentation must have:
-1. Title and clear description
-2. Complete parameters table with all columns:
-   - Parameter name
-   - Type
+## Command: check parameters
+When verifying API parameters:
+1. Check parameter tables for:
    - Required status
-   - Description
-   - Default value
-3. Response format with JSON example
-4. Working example request code
-5. Complete response fields table
-6. Relevant notes and usage guidelines
+   - Type constraints
+   - Default values
+   - Valid ranges/formats
+2. Verify timestamp formats:
+   - Some endpoints use Unix timestamps
+   - Others use ISO 8601
+3. Address formats:
+   - SS58 format for Substrate addresses
+   - Hex format for EVM addresses
+4. Pagination parameters:
+   - page (default: 1)
+   - limit (default: 50)
+   - order ('asc' or 'desc')
 
-## Verification Standards
+## Command: parse response
+When parsing API responses:
+1. Check response fields table
+2. Handle pagination structure:
+   ```json
+   {
+     "pagination": {
+       "current_page": 1,
+       "per_page": 50,
+       "total_items": 100,
+       "total_pages": 2,
+       "next_page": 2,
+       "prev_page": null
+     },
+     "data": []
+   }
+   ```
+3. Parse numerical values as strings
+4. Handle both SS58 and hex address formats
+5. Process timestamps according to format
 
-1. Parameters:
-   - All parameters are documented
-   - Types are accurate
-   - Required/optional status is clear
-   - Descriptions are helpful
-   - Default values are specified
+## Command: handle errors
+When implementing error handling:
+1. Check HTTP status codes
+2. Parse error response structure
+3. Handle rate limits
+4. Implement retries for 5xx errors
+5. Check beta status for dTAO endpoints
 
-2. Response Fields:
-   - All fields are documented
-   - Types are specified
-   - Descriptions are clear
-   - Nested objects are properly explained
+## Documentation Patterns
+1. Subnet endpoints require netuid parameter
+2. Historical endpoints support:
+   - Block range filtering
+   - Timestamp range filtering
+3. Address fields provided in both formats:
+   - SS58 (Substrate)
+   - Hex (EVM)
+4. Beta endpoints may have:
+   - Additional rate limits
+   - Different response formats
+   - Potential breaking changes
 
-3. Examples:
-   - Code is complete and runnable
-   - Uses proper API key placeholder
-   - Includes all required headers
-   - Shows proper parameter usage
-
-4. Notes:
-   - Cover important usage details
-   - Mention any limitations
-   - Include relevant warnings
-   - Provide helpful tips 
+## Quick References
+- Authentication: docs/api-key.md
+- API Categories: docs/index.md#api-categories
+- Response Standards: docs/index.md#response-standards
+- Beta Features: docs/dtao/index.md 
