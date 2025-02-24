@@ -1,15 +1,15 @@
 # API Documentation Checklist
 
 ## Price API
-- [ ] Get Latest Price
-- [ ] Get Price History
+- [x] Get Price
+- [x] Get Price History
 - [x] Get Price OHLC
 
 ## Coldkeys/Wallets API
 - [x] Get Account
 - [x] Get Account History
 - [x] Get Transfers
-- [ ] Get Exchanges
+- [x] Get Exchanges
 
 ## Network/Chain API
 - [x] Get Blocks
@@ -99,7 +99,7 @@
 ## dTAO API (Beta)
 - [x] Get Historical Stake Balance
 - [x] Get Stake Balance
-- [x] Get Validator Emission by Subnet 
+- [x] Get Validator Emission by Subnet
 
 ## Notes
 

@@ -1,4 +1,4 @@
-# Get Latest Price
+# Get Price
 
 Returns the latest price and market data for the specified asset.
 

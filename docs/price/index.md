@@ -4,7 +4,7 @@ The Price API provides real-time and historical price data for Bittensor (TAO). 
 
 ## Available Endpoints
 
-### [Get Latest Price](latest.md)
+### [Get Latest Price](price.md)
 Get the current price and market data for TAO.
 ```
 GET https://api.taostats.io/api/price/latest/v1
